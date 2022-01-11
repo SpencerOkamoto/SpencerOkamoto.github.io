@@ -2,11 +2,22 @@
 <html>
   <body>
 
-    <app-navbar></app-navbar>
-    <h1>{{title}}</h1>
-    <app-about></app-about>
-    <app-project></app-project>
-    <app-contact></app-contact>
+    <header>
+      <app-navbar></app-navbar>
+      <h1>{{title}}</h1>
+    </header>
+    
+    <section>
+      <app-about></app-about>
+    </section>
+
+    <main>
+      <app-project></app-project>
+    </main>
+
+    <footer>
+      <app-contact></app-contact>
+    </footer>
 
   </body>
 </html>
