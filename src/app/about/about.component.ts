@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutComponent implements OnInit {
   name = "Spencer Okamoto";
-  about = "I recently graduated from UC San Diego with a degree in Human Computer Interaction.";
+  about = "I recently graduated from UC San Diego with a degree in Cognitive Science specializing in Human Computer Interaction.";
 
   constructor() { }
 
