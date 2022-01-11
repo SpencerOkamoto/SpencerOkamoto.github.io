@@ -1,19 +1,26 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  
   <body>
 
     <header>
-      <app-navbar></app-navbar>
+      <nav>
+        <app-navbar></app-navbar>
+      </nav>
+      
       <h1>{{title}}</h1>
     </header>
     
-    <section>
-      <app-about></app-about>
-    </section>
-
     <main>
-      <app-project></app-project>
+      <app-about></app-about>
     </main>
+
+    <aside>
+      <app-project></app-project>
+    </aside>
 
     <footer>
       <app-contact></app-contact>
