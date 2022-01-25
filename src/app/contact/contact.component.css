@@ -1,0 +1,14 @@
+.contact-info {
+    display: grid;
+    row-gap: 25px;
+    text-align: center;
+}
+.contact-links {
+    display: flex; 
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
