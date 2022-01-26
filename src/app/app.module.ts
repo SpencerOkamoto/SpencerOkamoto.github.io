@@ -8,6 +8,7 @@ import { ContactComponent } from './contact/contact.component';
 import { MedeccComponent } from './medecc/medecc.component';
 import { SaltonComponent } from './salton/salton.component';
 import { ThirdComponent } from './third/third.component';
+import { BioComponent } from './bio/bio.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ThirdComponent } from './third/third.component';
     ContactComponent,
     MedeccComponent,
     SaltonComponent,
-    ThirdComponent
+    ThirdComponent,
+    BioComponent
   ],
   imports: [
     BrowserModule,

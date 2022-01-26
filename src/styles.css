@@ -1,7 +1,5 @@
-/* You can add global styles to this file, and also import other style files */
-img {
-    max-width: 320px;
-}
-.info {
-    background-color: beige;
+/* Readability and Media Boundaries */
+.text {
+    max-width: 560px;
+    margin: 0 auto;
 }
