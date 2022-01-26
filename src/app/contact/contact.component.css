@@ -1,10 +1,15 @@
 .contact-info {
     display: grid;
-    row-gap: 25px;
     text-align: center;
+    row-gap: 25px;
 }
 .contact-links {
     display: flex; 
+    justify-content: space-around;
+}
+
+.contact-me {
+    display: flex;
     justify-content: space-around;
 }
 
