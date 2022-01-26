@@ -4,9 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
-import { NavbarComponent } from './navbar/navbar.component';
 import { ContactComponent } from './contact/contact.component';
-import { ProjectComponent } from './project/project.component';
 import { MedeccComponent } from './medecc/medecc.component';
 import { SaltonComponent } from './salton/salton.component';
 import { ThirdComponent } from './third/third.component';
@@ -15,9 +13,7 @@ import { ThirdComponent } from './third/third.component';
   declarations: [
     AppComponent,
     AboutComponent,
-    NavbarComponent,
     ContactComponent,
-    ProjectComponent,
     MedeccComponent,
     SaltonComponent,
     ThirdComponent
