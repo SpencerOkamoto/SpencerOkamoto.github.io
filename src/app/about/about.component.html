@@ -1,13 +1,4 @@
-<nav>
-    <ul class="nav">
-        <li class="nav-item"><a>(Work in Progress) Portfolio</a></li>
-        <li class="nav-item"><a href='#about'>About</a></li>
-        <li class="nav-item"><a href='#projects'>Projects</a></li>
-        <li class="nav-item"><a href='#contact'>Contact</a></li>
-    </ul>
-</nav>
-
-<header id="about" class="text">
+<section id="about" class="text">
     <p>I'm a <strong>Front-End Engineer</strong> with a passion for 
     <strong>User Interface Design and Research</strong>.</p>
 
@@ -22,16 +13,15 @@
     <p>Email me with any opportunities at</p>
     
     <p><strong>szokamot@ucsd.edu</strong></p>
-</header>
+</section>
 
 <main id="projects" class="projects">
     <aside class="medecc">
-        <a [routerLink] = "'/medecc'" class="hover"><img src="../../assets/square.png" alt="MedECC"></a>
+        <a [routerLink] = "'/medecc'" class="hover"><img src="../../assets/MedECC_icon.png" alt="MedECC"></a>
     </aside>
     
     <aside class="salton">
-        <a [routerLink] = "'/salton'" class="hover"><img src="../../assets/square.png" alt="Seismic Trends"></a>
+        <a [routerLink] = "'/salton'" class="hover"><img src="../../assets/Salton_icon.png" alt="Seismic Trends"></a>
     </aside>
     
-    <a [routerLink] = "'/third'" class="third hover"><img src="../../assets/square.png" alt="Third"></a>
 </main>

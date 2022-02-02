@@ -1,22 +1,12 @@
-.text {
-    color: white;
-    padding-bottom: 10%;
-}
-a {
-    color: white;
-}
 img {
     max-width: 320px;
-    padding-top: 5%;
 }
 
 .bio {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
-.me {
-    margin-left: 5%;
-    margin-top: 5%;
+.about-block {
+    min-width: 320px;
     padding-left: 5%;
-    padding-top: 5%;
 }
