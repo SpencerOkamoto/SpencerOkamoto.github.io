@@ -19,6 +19,7 @@ body {
     padding-top: 5%;
     max-width: 800px;
     margin: auto;
+    text-align: center;
 }
 .nav {
     display: flex;
