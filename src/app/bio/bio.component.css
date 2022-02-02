@@ -4,9 +4,13 @@ img {
 
 .bio {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
+    padding: 5%;
 }
 .about-block {
+    flex: 1;
     min-width: 320px;
+    max-width: 560px;
     padding-left: 5%;
 }

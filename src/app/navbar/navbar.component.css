@@ -1,0 +1,26 @@
+.nav2 {
+    display: none;
+}
+
+@media only screen and (max-width: 725px) {
+    .nav {
+        display: none;
+    }
+    .nav2 {
+        display: block;
+        padding-top: 2rem;
+    }
+    .mobile-links {
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 2rem;
+    }
+    .mobile-home {
+        display: flex;
+        justify-content: center;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+    }
+}
