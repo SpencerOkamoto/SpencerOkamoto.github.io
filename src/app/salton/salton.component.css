@@ -1,3 +1,20 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
 .text {
     padding-bottom: 10%;
+}
+
+.visuals {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+    max-width: 560px;
+}
+.visuals > .figs {
+    max-width: 280px;
+    max-height: 280px;
 }
