@@ -26,7 +26,7 @@
         feedback, it became clear that two products were evolving. 
         A covid-19 focused patient monitor and a patient-doctor matching 
         network tool. Our matching tool would work on top of the patient 
-        monitor, so we could tackle covid-19 and be ready for future goals.</p>
+        monitor, so we could tackle covid-19 and be ready for future development.</p>
 
         <h3>Who are we designing for?</h3>
         <p>Our clients are all hospital administrators located in India, Mexico, 
@@ -41,12 +41,30 @@
         <p>The first round of fixes were usability and accessibility changes. 
         The login and sign-up pages needed consistent color usage, font sizes, 
         and better contrasting buttons. These fixes bettered the whole app with 
-        text-blocks and image sizes set to a standard. As a developer and 
-        designer, I was involved in Angular routing tasks to better user 
+        text blocks and image sizes set to a standard. As a developer and 
+        designer, I was involved in Angular routing tasks to improve user 
         navigation and flow. The design had to be responsive and focused on a 
         mobile or tablet experience as this was the primary device of our users. 
         These development fixes gave a smooth and simple flow for healthcare 
-        professionals and patients.</p>
+        professionals and patients. The best example of my work with usability 
+        and accessibility is in the main log-in screen. Here is a side-by-side 
+        of the old and new iterations:</p>
+
+        <aside class="visuals">
+            <img class="figs" src="../../assets/medecc-figures/oldLogin.png">
+            <img class="figs" src="../../assets/medecc-figures/newLogin.png">
+        </aside>
+
+        <p>I've change the design language of MedECC to a more user-friendly 
+        experience. In the old log-in, color isn't consistent and contrast draws 
+        the user toward the "Patient" toggle button. This type of log-in screen 
+        produces errors when the user doesn't distinguish between "Caregiver" or 
+        "Patient". The use of three different text colors is also a challenge to 
+        the users' eye. In the new design, I simplify the color palette to simply blue, 
+        gray, and white. This helps highlight the "Login" button and doesn't conflict with 
+        the logo design. The new design centers assets on the page to give the user 
+        a more approachable first impression. The buttons are aligned horizontally 
+        stacked, so the user doesn't press the wrong button.</p>
 
         <p>The second round of fixes came from wireframes and prototyping. 
         The main user interaction was decided as a healthcare worker choosing 
@@ -56,14 +74,32 @@
         patient dashboard, which would be the hub for communication, monitoring, and 
         patient information. This meant healthcare workers only needed to switch 
         between two screens: patient list and individual monitor.</p>
+
+        <aside class="visuals">
+            <img class="figs" src="../../assets/medecc-figures/oldMonitor.png">
+            <img class="figs" src="../../assets/medecc-figures/newMonitor.png">
+        </aside>
+
+        <p>Just like the log-in screen, the old design required improvements to 
+        colors and text sizing/alignment. The larger issue in the old design is 
+        the dashboard navigation. Information is displayed as separate pages, which 
+        forces users to navigate away from the Patient Monitor. This is a problem as 
+        the purpose of our app is for constant video monitoring by healthcare workers. 
+        The two essential interactions are messaging and video monitoring. Everything 
+        else is data best suited for elsewhere. the "Perform Care Checklist" was a 
+        feature that most users did not use. The "Hierarchy" is important for 
+        messaging section where it is displayed in the new version. The action for 
+        "Handover Patient" is moved to the caregiver's menu to prevent accidental use. 
+        The final "Patient Info" was also moved to the chat. This creates an easy 
+        to interact dashboard that maintains its purpose as a design element.</p>
     </section>
 
     <section class="text-body">
         <h2>Results of My Work</h2>
-        <p>Our clients were excited about our prototype above. They highlighted 
-        easy of use and simplicity of patient information/communication channels. 
+        <p>Our clients were excited about our prototypes. They highlighted the
+        ease of use and simplicity of patient information/communication channels. 
         I redesigned the user experience and interactions by removing extraneous 
-        or duplicate actions, while organizing user flows into a clean design.
+        or duplicate actions, while organizing user flows into a clean dashboard.
         From my work, MedECC is looking for funding to create a much broader 
         healthcare solution. With covid-19, we aimed to reduce load on nurses and 
         physicians. With my work, we aim to reduce load on country-wide healthcare 
