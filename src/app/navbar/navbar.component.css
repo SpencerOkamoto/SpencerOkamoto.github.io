@@ -2,6 +2,29 @@
     display: none;
 }
 
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: auto;
+    padding-top: 2rem;
+    min-width: 320px;
+    max-width: 800px;
+  }
+  .nav-item {
+    list-style: none;
+    margin-right: 2rem;
+  }
+  .nav-item a {
+    text-decoration: none;
+    color: black;
+  }
+  .nav-item:first-child {
+    margin-right: auto;
+    margin-left: 0rem; 
+  }
+
 @media only screen and (max-width: 725px) {
     .nav {
         display: none;
