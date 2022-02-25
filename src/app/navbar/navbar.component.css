@@ -11,6 +11,7 @@
     padding-top: 2rem;
     min-width: 320px;
     max-width: 800px;
+    font-size: 1.25em;
   }
   .nav-item {
     list-style: none;
