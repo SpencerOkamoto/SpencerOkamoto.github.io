@@ -1,14 +1,85 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Portfolio</title>
     <!--Responsive Viewport-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/styles.css"/>
   </head>
   
   <body>
+    <!--Navigation | (fixed) to (left) w/ name, work, and blog-->
+    <!--anchors will be (underlined) by section and large()-->
+    <nav>
+      <a href="#about">Spencer</a>
+      <a href="#research">Research</a>
+      <a href="#projects">Projects</a>
+      <!--(possible) a href="#blog">Blog</a-->
+    </nav>
 
-    <!--Page-->    
+    <!--Introduction | riparian background (colors=gray, pink, green...sand)-->
+    <!--utilize (viewport height), (mobile) set of figures, (desktop) set of figures-->
+    <main id="about">
+      <div id="riparian-top"></div>
+
+      <div id="about-one">
+        <h1>Hi, </h1>
+        <h4>I'm Spencer - a designer, researcher, and ecologist.</h4>
+      </div>
+
+      <div id="riparian-middle"></div>
+
+      <div id="about-two">
+        <p>My hobbies outside of work include gardening, cooking, fermenting, and hiking. 
+          I believe in developing an ecosystem that benefits all ingredients in order to 
+          create something truly distinct of its parts. This is my design philosophy. 
+          As a researcher and designer, I look at the components and how their interactions 
+          among each other creates those distinct characteristics. Like with food and nature, 
+          the product is reminiscent of its parts - each changing small aspects of the environment 
+          - but properties emerge as their parts interact with the evolving environment. </p>
+      </div>
+    </main>
+
+    <!--Research | rules for research and guide to user flows-->
+    <!--(numbered list) of insights for good user research and how to deconstruct a cognitive system-->
+    <section id="research">
+      <div id="guide">
+        <h2>My User Research Guidelines, </h2>
+        <ol>
+          <li>Ex for 1</li>
+          <li>Ex for 2</li>
+        </ol>
+      </div>
+    </section>
+
+    <!--Projects | describe the process of three projects and the relationship to design/research-->
+    <!--possible (div) about both food insecurity and food accessibility with (img) of a relational web and (p) for solution-->
+    <!--(div) about user flow and properly determining the user personas for needs, navigation, and working environment-->
+    <!--(div) about converting EQ research into digestible content on a USGS re-design-->
+    <section id="projects">
+      <div id="hospital-flow">
+        <h2>MedECC |</h2>
+        <p>a telehealth solution for rural and underserved regions of the world.</p>
+
+        <div id="hospital-problem"></div>
+        <div id="hospital-user-flows"></div>
+        <div id="hospital-solutions"></div>
+      </div>
+
+      <div id="quake-analysis">
+        <h2>Swarms on the San Andreas Fault |</h2>
+        <p>making USGS data accessible to the public and researchers.</p>
+
+        <div id="quake-problem"></div>
+        <div id="quake-data-flows"></div>
+        <div id="quake-solutions"></div>
+      </div>
+    </section>
+
+    <!--Contacts | (fixed) footer to the (bottom-left) w/ LinkedIn, GitHub, Blogger, Instagram-->
+    <footer>
+      
+    </footer>
 
   </body>
 </html>
